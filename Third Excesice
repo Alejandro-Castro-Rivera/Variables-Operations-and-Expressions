@@ -1,0 +1,38 @@
+Time = input("Enter time in seconds: ",)
+Days = int(Time) // 86400
+Hours = (int(Time) % 86400) // 3600
+Minutes = (int(Time) % 86400 % 3600) // 60
+Seconds = int(Time) % 86400 % 3600 % 60
+print(Days, "day(s),", Hours, "hour(s),", Minutes, "minute(s),", Seconds, "second(s)")
+
+English:
+Write a program that asks the user to enter a time in seconds.
+The program should convert the time in seconds into days, hours, minutes, and seconds and display the result in a readable format.
+The program should:
+- Prompt the user to enter the time in seconds.
+- Convert the total seconds into days, hours, minutes, and remaining seconds.
+- Print the result following the examples format.
+
+Conversions:
+1 day is equal to 86400 seconds
+1 hour is equal to 3600 seconds
+1 minute  is equal to 60 seconds
+ 
+Español:
+
+
+Escriba un programa que le pida al usuario ingresar un tiempo en segundos.
+El programa debe convertir el tiempo en segundos a días, horas, minutos y segundos, y mostrar el resultado en un formato legible.
+
+El programa debe:
+
+Solicitar al usuario que ingrese el tiempo en segundos.
+
+Convertir el total de segundos en días, horas, minutos y los segundos restantes.
+
+Mostrar el resultado siguiendo el formato de los ejemplos.
+
+Conversiones:
+1 día equivale a 86400 segundos
+1 hora equivale a 3600 segundos
+1 minuto equivale a 60 segundos
