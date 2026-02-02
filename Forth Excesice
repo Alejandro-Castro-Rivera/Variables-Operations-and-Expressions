@@ -1,0 +1,62 @@
+Tax = 0.08
+Price = input("Enter original price: ",)
+Discount = input("Enter discount percentage: ",)
+discountA = (float(Discount)/100) * float(Price)
+final_price = float(Price)-discountA + (float(Price)-discountA *Tax)
+print("Original price:", float(Price))
+print("Discount amount:", discountA)
+print("Price after discount:", float(Price)-discountA)
+print("Final price after tax:", (float(Price)-discountA) + ((float(Price)-discountA)*Tax))
+
+English:
+
+Write a program that asks the user for the original price of an item and a discount percentage.
+The program should:
+- Prompt the user to enter the original price of the item.
+- Prompt the user to enter the discount percentage (between 0 and 100).
+- Calculate the final price after applying the discount.
+- Apply a tax rate of 8% to the discounted price.
+- ROUND the result to two decimal places
+- Print the original price, the discount amount, the final price before tax, and the final price after tax.
+
+Formula:
+discount_amount = (discount_percentage / 100) * original_price
+price_after_discount = original_price - discount_amount
+final_price_before_tax = price_after_discount
+final_price_after_tax = final_price_before_tax * (1 + tax_rate)
+ 
+Round the result to two decimal places.
+
+round(number, digits)
+
+number	Required. The number to be rounded
+digits	Optional. The number of decimals to use when rounding the number. Default is 0
+Español:
+
+Escriba un programa que le pida al usuario el precio original de un artículo y un porcentaje de descuento.
+El programa debe:
+
+Solicitar al usuario que ingrese el precio original del artículo.
+
+Solicitar al usuario que ingrese el porcentaje de descuento (entre 0 y 100).
+
+Calcular el precio final después de aplicar el descuento.
+
+Aplicar una tasa de impuesto del 8% al precio con descuento.
+
+REDONDEAR el resultado a dos decimales.
+
+Mostrar el precio original, el monto del descuento, el precio final antes de impuestos y el precio final después de impuestos.
+
+Fórmulas:
+descuento = (porcentaje_descuento / 100) * precio_original
+precio_despues_descuento = precio_original - descuento
+precio_final_antes_impuesto = precio_despues_descuento
+precio_final_despues_impuesto = precio_final_antes_impuesto * (1 + tasa_impuesto)
+
+Redondee el resultado a dos decimales.
+
+round(numero, digitos)
+
+numero Requerido. El número que se va a redondear
+digitos Opcional. La cantidad de decimales que se usarán al redondear el número. El valor por defecto es 0
