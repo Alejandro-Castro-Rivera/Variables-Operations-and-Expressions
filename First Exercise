@@ -1,0 +1,38 @@
+number = input("Enter a 3-digit number: ",)
+re = int(number) // 100
+su = (int(number) % 100) // 10
+lt = (int(number) % 10) // 1
+print("The sum of digits of",number,"is",re+su+lt)
+
+English:
+
+Write a program that asks the user for a 3-digit integer number and prints the sum of its three digits.
+ 
+Example:
+ 
+ 
+The sum of digits of 537 is 15 = 5 + 3 + 7.
+ 
+The program should:
+ 
+- Read an integer number from the user.
+- Extract and print the sum of its 3 digits.
+
+HINT: You can use modulus (%) to get the last digit of a number and // to get the rest.  No need to use loops.
+
+
+Español:
+Escriba un programa que le pida al usuario un número entero de 3 dígitos y muestre la suma de sus tres dígitos.
+
+Ejemplo:
+
+La suma de los dígitos de 537 es 15 = 5 + 3 + 7.
+
+El programa debe:
+
+Leer un número entero ingresado por el usuario.
+
+Extraer y mostrar la suma de sus 3 dígitos.
+
+PISTA: Puede usar el operador módulo (%) para obtener el último dígito de un número y el operador división entera (//) para obtener el resto.
+No es necesario usar ciclos (loops).
