@@ -1,0 +1,5 @@
+number = input("Enter a 3-digit number: ",)
+re = int(number) // 100
+su = (int(number) % 100) // 10
+lt = (int(number) % 10) // 1
+print("The sum of digits of",number,"is",re+su+lt)
