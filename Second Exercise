@@ -1,0 +1,29 @@
+import math
+
+x1 = input("Enter x1: ")
+y1 = input("Enter y1: ")
+x2 = input("Enter x2: ")
+y2 = input("Enter y2: ")
+distance = float(math.sqrt((int(x2) -int(x1))** 2 + (int(y2)-int(y1)) ** 2))
+print("Distance:",distance)
+
+English:
+Write a program that asks the user for the coordinates of two points in a 2D plane.
+The program should:
+   - Prompt the user to enter the coordinates (x1, y1) for the first point.
+   - Prompt the user to enter the coordinates (x2, y2) for the second point.
+   - Compute the distance between the two points using the formula:
+        distance = sqrt((x2 - x1)² + (y2 - y1)²)
+   - Print the result.
+Español:
+
+Escriba un programa que le pida al usuario las coordenadas de dos puntos en un plano 2D.
+El programa debe:
+
+Solicitar al usuario que ingrese las coordenadas (x1, y1) del primer punto.
+Solicitar al usuario que ingrese las coordenadas (x2, y2) del segundo punto.
+
+Calcular la distancia entre los dos puntos usando la fórmula:
+distancia = sqrt((x2 - x1)² + (y2 - y1)²)
+
+Mostrar el resultado.
